@@ -3,7 +3,9 @@ import ContactDirectory from '../components/ContactDirectory';
 
 function Home() {
   return (
-    <><ContactDirectory/></>
+    <>
+      <ContactDirectory/>
+    </>
   );
 }
 
