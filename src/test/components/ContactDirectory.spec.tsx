@@ -1,7 +1,7 @@
 import React from 'react';
 import '@testing-library/jest-dom';
 import { render, fireEvent, screen } from '@testing-library/react';
-import ContactDirectory from '../../src/components/ContactDirectory';
+import ContactDirectory from '../../components/ContactDirectory';
 
 describe('ContactDirectory', () => {
   const fillForm = (name: string, mobile: string, email: string) => {
